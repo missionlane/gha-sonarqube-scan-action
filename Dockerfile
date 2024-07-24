@@ -1,4 +1,4 @@
-FROM artifactory.pennywise.cc/sonarsource/sonar-scanner-cli:10.0
+FROM docker.pennywise.cc/sonarsource/sonar-scanner-cli:10.0
 
 LABEL version="2.1.0" \
       repository="https://github.com/sonarsource/sonarqube-scan-action" \
